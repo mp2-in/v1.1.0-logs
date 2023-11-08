@@ -1,42 +1,31 @@
 {
   "context": {
     "action": "on_search",
-    "bap_id": "biz.test.bitsila.com",
-    "bap_uri": "https://biz.test.bitsila.com/ecc/ondc/logistics-bap",
+    "bap_id": "integrations-preprod.channelier.com",
+    "bap_uri": "https://integrations-preprod.channelier.com/ondc",
     "bpp_id": "uat-store.pidge.in",
     "bpp_uri": "https://uat-store.pidge.in/v1/ondc",
     "city": "std:080",
     "core_version": "1.1.0",
     "country": "IND",
     "domain": "nic2004:60232",
-    "message_id": "7b1b9d6a-1ccd-457f-863e-c357947f942e",
-    "timestamp": "2023-11-06T09:37:13.965Z",
-    "transaction_id": "LOG-3040-1001-1215-t8lG"
+    "message_id": "t5LrLTBSWiCqLCGMYAKHx",
+    "timestamp": "2023-11-08T12:21:52.019Z",
+    "transaction_id": "f9ef6c42-efe0-4d10-8e1f-1d224649ae1b"
   },
   "message": {
     "catalog": {
-      "bpp/descriptor": {
-        "name": "Pidge Inadventures Inc"
-      },
+      "bpp/descriptor": { "name": "Pidge Inadventures Inc" },
       "bpp/fulfillments": [
-        {
-          "id": "1",
-          "type": "Prepaid"
-        },
-        {
-          "id": "3",
-          "type": "RTO"
-        }
+        { "id": "1", "type": "Prepaid" },
+        { "id": "3", "type": "RTO" }
       ],
       "bpp/providers": [
         {
           "categories": [
             {
               "id": "Same Day Delivery",
-              "time": {
-                "duration": "P1D",
-                "label": "TAT"
-              }
+              "time": { "duration": "P1D", "label": "TAT" }
             }
           ],
           "descriptor": {
@@ -57,14 +46,11 @@
               "fulfillment_id": "1",
               "id": "2",
               "parent_item_id": "",
-              "price": {
-                "currency": "INR",
-                "value": "59.00"
-              },
+              "price": { "currency": "INR", "value": "59.00" },
               "time": {
                 "duration": "PT45M",
                 "label": "TAT",
-                "timestamp": "2023-11-06T10:22:13.965Z"
+                "timestamp": "2023-11-08T13:06:52.019Z"
               }
             },
             {
@@ -78,14 +64,11 @@
               "fulfillment_id": "3",
               "id": "02",
               "parent_item_id": "2",
-              "price": {
-                "currency": "INR",
-                "value": "59.00"
-              },
+              "price": { "currency": "INR", "value": "59.00" },
               "time": {
                 "duration": "PT45M",
                 "label": "TAT",
-                "timestamp": "2023-11-06T10:22:13.965Z"
+                "timestamp": "2023-11-08T13:06:52.019Z"
               }
             }
           ]

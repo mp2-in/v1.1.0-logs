@@ -9,9 +9,9 @@
     "core_version": "1.1.0",
     "country": "IND",
     "domain": "nic2004:60232",
-    "message_id": "zrJX6iBQVaW2qVMiibEw9",
-    "timestamp": "2023-11-08T07:22:32.777Z",
-    "transaction_id": "b8931d0a-56d1-4176-b3b7-194ebe3be97a"
+    "message_id": "5rUaRZq6dfdleoariKF69",
+    "timestamp": "2023-11-08T12:22:12.402Z",
+    "transaction_id": "f9ef6c42-efe0-4d10-8e1f-1d224649ae1b"
   },
   "message": {
     "order": {
@@ -25,57 +25,43 @@
           "name": "PF-43, B-Wing",
           "state": "Maharashtra"
         },
-        "created_at": "2023-11-08T07:22:24.493Z",
+        "created_at": "2023-11-08T12:21:59.667Z",
         "email": "info@channelier.com",
         "name": "Arachnomesh Technologies Pvt Ltd",
         "phone": "7291085339",
         "tax_number": "27AAMCA8667N1ZQ",
-        "updated_at": "2023-11-08T07:22:24.493Z"
+        "updated_at": "2023-11-08T12:21:59.667Z"
       },
-      "created_at": "2023-11-08T07:22:27.323Z",
+      "created_at": "2023-11-08T12:22:06.834Z",
       "fulfillments": [
         {
           "id": "1",
-          "state": {
-            "descriptor": {
-              "code": "Pending"
-            }
-          },
+          "state": { "descriptor": { "code": "Pending" } },
           "tracking": false,
           "type": "Prepaid"
         }
       ],
-      "id": "b6ec81c3-7eee-41d7-b676-bb2c719efa5d",
+      "id": "255ef5db-7781-40df-a5e4-536418e741ae",
       "items": [
         {
           "category_id": "Same Day Delivery",
-          "descriptor": {
-            "code": "P2P"
-          },
+          "descriptor": { "code": "P2P" },
           "id": "2"
         }
       ],
-      "provider": {
-        "id": "107"
-      },
+      "provider": { "id": "107" },
       "quote": {
         "breakup": [
           {
             "@ondc/org/item_id": "2",
             "@ondc/org/title_type": "Delivery Charge",
-            "price": {
-              "currency": "INR",
-              "value": "59.00"
-            }
+            "price": { "currency": "INR", "value": "59.00" }
           }
         ],
-        "price": {
-          "currency": "INR",
-          "value": "59.00"
-        }
+        "price": { "currency": "INR", "value": "59.00" }
       },
       "state": "Accepted",
-      "updated_at": "2023-11-08T07:22:27.323Z"
+      "updated_at": "2023-11-08T12:22:06.834Z"
     }
   }
 }

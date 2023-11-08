@@ -1,76 +1,50 @@
 {
   "context": {
     "action": "search",
-    "bap_id": "biz.test.bitsila.com",
-    "bap_uri": "https://biz.test.bitsila.com/ecc/ondc/logistics-bap",
+    "bap_id": "integrations-preprod.channelier.com",
+    "bap_uri": "https://integrations-preprod.channelier.com/ondc",
     "city": "std:080",
     "core_version": "1.1.0",
     "country": "IND",
     "domain": "nic2004:60232",
-    "message_id": "7b1b9d6a-1ccd-457f-863e-c357947f942e",
-    "timestamp": "2023-11-06T09:37:13.676Z",
-    "transaction_id": "LOG-3040-1001-1215-t8lG",
+    "message_id": "c297819c-ebb7-4d54-b518-f440623571b3",
+    "timestamp": "2023-11-08T12:21:51.250Z",
+    "transaction_id": "f9ef6c42-efe0-4d10-8e1f-1d224649ae1b",
     "ttl": "PT30S"
   },
   "message": {
     "intent": {
       "@ondc/org/payload_details": {
+        "category": "Grocery",
         "dimensions": {
-          "breadth": {
-            "unit": "meter",
-            "value": 0.1
-          },
-          "height": {
-            "unit": "meter",
-            "value": 0.1
-          },
-          "length": {
-            "unit": "meter",
-            "value": 0.1
-          }
+          "breadth": { "unit": "centimeter", "value": 5 },
+          "height": { "unit": "centimeter", "value": 20 },
+          "length": { "unit": "centimeter", "value": 5 }
         },
-        "value": {
-          "currency": "INR",
-          "value": "282.66"
-        },
-        "weight": {
-          "unit": "Kilogram",
-          "value": 0.5
-        }
+        "value": { "currency": "INR", "value": "249.00" },
+        "weight": { "unit": "Gram", "value": 50 }
       },
-      "category": {
-        "id": "Standard Delivery"
-      },
+      "category": { "id": "Same Day Delivery" },
       "fulfillment": {
         "end": {
           "location": {
-            "address": {
-              "area_code": "560095"
-            },
-            "gps": "12.938208, 77.619106"
+            "address": { "area_code": "560034" },
+            "gps": "12.927112, 77.626652"
           }
         },
         "start": {
           "location": {
-            "address": {
-              "area_code": "560095"
-            },
-            "gps": "12.931233398766624, 77.61628451114609",
-            "id": "3040:1669"
+            "address": { "area_code": "560061" },
+            "gps": "12.900343, 77.518792"
           }
         },
         "type": "Prepaid"
       },
-      "payment": {
-        "@ondc/org/collection_amount": "0.0"
-      },
       "provider": {
         "time": {
           "days": "1,2,3,4,5,6,7",
-          "range": {
-            "end": "2355",
-            "start": "0700"
-          }
+          "range": { "end": "2200", "start": "0600" },
+          "schedule": { "holidays": [] }
         }
       }
     }
